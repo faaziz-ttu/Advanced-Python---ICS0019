@@ -1,0 +1,3 @@
+pip install square-faaziz==0.12
+
+https://pypi.org/project/square-faaziz/0.12/
