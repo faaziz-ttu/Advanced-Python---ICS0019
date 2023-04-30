@@ -83,7 +83,7 @@ for provider_name, canteen_name, location, time_open, time_closed in canteen_dat
 
 # 3) Query canteens that are open from 09.00 to 16.20
 
-results = session.query(Canteen).filter(Canteen.time_open >= '09:00', Canteen.time_closed <= '16:20').all()
+results = session.query(Canteen).filter(Canteen.time_open <= '09:00', Canteen.time_closed >= '16:20').all()
 print(end="\n\n")
 for row in results:
     print(row.id, row.name, row.location, row.time_open, row.time_closed, row.provider.provider_name)

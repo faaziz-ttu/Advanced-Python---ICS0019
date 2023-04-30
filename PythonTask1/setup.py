@@ -15,13 +15,13 @@ LONG_DESCRIPTION = 'Simple function'
 setup(
     name="square_faaziz",
     version=VERSION,
-    author="Farid Azizov",
-    author_email="<farid_azizov@protonmail.com>",
+    author="......",
+    author_email="....",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    keywords=['python', 'farid azizov'],
+    keywords=['python'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",

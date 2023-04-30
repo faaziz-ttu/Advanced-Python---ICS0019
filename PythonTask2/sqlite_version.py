@@ -81,7 +81,7 @@ for provider_name, canteen_name, location, time_open, time_closed in canteen_dat
 # 3) Create query for canteens which are open 09.00-16.20 (full period)
 c.execute("""
     SELECT * FROM CANTEEN 
-    WHERE time_open >= '09:00' AND time_closed <= '16:20'
+    WHERE time_open <= '09:00' AND time_closed >= '16:20'
 """)
 
 results = c.fetchall()

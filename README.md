@@ -1,1 +1,3 @@
 # Advanced-Python---ICS0019
+
+#Hi there! In this GitHub README.md file, I'm sharing my answers to tasks to the Advanced Python course from Taltech University. This course covered advanced Python topics, like object-oriented programming and data structures. I've included detailed answers to assignments with commented code and explanations. I hope my solutions can help others learn and improve their Python skills.
